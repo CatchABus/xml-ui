@@ -1,0 +1,30 @@
+{
+  "name": "@nativescript-community/xml-ui-compiler",
+  "version": "1.0.0-alpha.0",
+  "description": "A compiler that turns NativeScript XML UI content into JavaScript.",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativescript-community/xml-ui.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "compiler",
+    "xml"
+  ],
+  "author": "CatchABus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nativescript-community/xml-ui/issues"
+  },
+  "homepage": "https://github.com/nativescript-community/xml-ui#readme",
+  "dependencies": {
+    "@babel/parser": "^7.21.8",
+    "@babel/traverse": "^7.21.5",
+    "@babel/types": "^7.21.5",
+    "change-case": "^4.1.2",
+    "htmlparser2": "^9.0.0"
+  }
+}

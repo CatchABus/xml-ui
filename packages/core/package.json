@@ -1,0 +1,26 @@
+{
+  "name": "@nativescript-community/xml-ui-core",
+  "version": "1.0.0-alpha.0",
+  "description": "A set of utilities for NativeScript XML UI (JS/TS).",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nativescript-community/xml-ui.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "xml",
+    "core"
+  ],
+  "author": "CatchABus",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nativescript-community/xml-ui/issues"
+  },
+  "homepage": "https://github.com/nativescript-community/xml-ui#readme",
+  "dependencies": {
+    "@nativescript/core": "^8.5.3"
+  }
+}
