@@ -8,7 +8,7 @@
 - [@nativescript-community/xml-ui-loader](packages/loader/README.md)
 
 This is an alternate version of NativeScript Core JS/TS flavor.  
-It's a new approach that uses an ahead-of-time (AOT) compiler to turn XML content along with data bindings into a JavaScript module during the build phase, on order to achieve the same result (more or less).  
+It's a new approach that uses an ahead-of-time (AOT) compiler to turn XML content along with data bindings into a JavaScript module during the build phase, in order for developers to use the same code for a more optimized result (more or less).  
 It also comes with the flexibility of using data binding alternatives in markup (e.g. mobx).  
 
 ## Table of Contents
