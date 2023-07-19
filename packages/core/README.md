@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@nativescript-community/xml-ui-core.svg)](https://www.npmjs.com/package/@nativescript-community/xml-ui-core)
 [![npm](https://img.shields.io/npm/dt/@nativescript-community/xml-ui-core.svg?label=npm%20downloads)](https://www.npmjs.com/package/@nativescript-community/xml-ui-core)
 
-This package contains utilities used by [@nativescript-community/xml-ui-compiler](packages/compiler).  
+This package contains utilities used by [@nativescript-community/xml-ui-compiler](../compiler).  
 
 ## Installation
 

@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@nativescript-community/xml-ui-loader.svg)](https://www.npmjs.com/package/@nativescript-community/xml-ui-loader)
 [![npm](https://img.shields.io/npm/dt/@nativescript-community/xml-ui-loader.svg?label=npm%20downloads)](https://www.npmjs.com/package/@nativescript-community/xml-ui-loader)
 
-This loader provides support for using [@nativescript-community/xml-ui-compiler](packages/compiler) in Webpack.  
+This loader provides support for using [@nativescript-community/xml-ui-compiler](../compiler) in Webpack.  
 
 ## Installation
 
