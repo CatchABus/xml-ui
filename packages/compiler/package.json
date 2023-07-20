@@ -1,6 +1,6 @@
 {
   "name": "@nativescript-community/xml-ui-compiler",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "A compiler that turns NativeScript XML UI content into JavaScript.",
   "scripts": {
     "build": "tsc --project tsconfig.json && cp ./README.md ../../dist/compiler"
