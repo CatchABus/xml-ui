@@ -22,6 +22,8 @@ const observableBindingHandler: BindingHandler = {
   }
 };
 
+let bindingHandler: BindingHandler = observableBindingHandler;
+
 function notifyViewBindingContextChange(args) {
   const view = args.object;
   view.notify(<PropertyChangeData>{
@@ -51,14 +53,12 @@ export function onBindingSourcePropertyChange(args) {
 }
 
 export class BindingHelper {
-  private _bindingHandler: BindingHandler = observableBindingHandler;
-
-  get dataBindingHandler(): BindingHandler {
-    return this._bindingHandler;
+  static getDataBindingHandler(): BindingHandler {
+    return bindingHandler;
   }
 
-  set dataBindingHandler(handler: BindingHandler) {
-    this._bindingHandler = handler;
+  static setDataBindingHandler(handler: BindingHandler) {
+    bindingHandler = handler;
   }
 
   public static createParentsBindingInstance(view: ViewBase, cssTypes: string[]) {
