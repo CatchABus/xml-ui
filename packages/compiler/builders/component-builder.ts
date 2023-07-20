@@ -1040,7 +1040,7 @@ export class ComponentBuilder {
       t.callExpression(
         t.memberExpression(
           t.identifier('DOMHelper'),
-          t.identifier('addCollectionToParent')
+          t.identifier('setViewPropertyValue')
         ), [
           t.identifier(viewReferenceName),
           t.stringLiteral(propertyName),
