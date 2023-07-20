@@ -68,7 +68,7 @@ This loader requires a new configuration:
 ```javascript
 const webpack = require('@nativescript/webpack');
 const { getEntryDirPath, getPlatformName } = require('@nativescript/webpack/dist/helpers/platform');
-const { chainLoaderConfiguration } = require("@nativescript-community/xml-ui-loader/dist/helpers");
+const { chainLoaderConfiguration } = require("@nativescript-community/xml-ui-loader/helpers");
 
 module.exports = (env) => {
   webpack.init(env);
