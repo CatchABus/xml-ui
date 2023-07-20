@@ -1,9 +1,9 @@
 {
   "name": "@nativescript-community/xml-ui-core",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "A set of utilities for NativeScript XML UI (JS/TS).",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json && cp ./README.md ../../dist/core"
   },
   "repository": {
     "type": "git",
