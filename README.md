@@ -36,7 +36,7 @@ It also comes with the flexibility of using data binding alternatives in markup 
 ## Installation
 
 ```
-npm install @nativescript-community/xml-ui-core --save-dev @nativescript-community/xml-ui-loader
+npm install @nativescript-community/xml-ui-core && @nativescript-community/xml-ui-loader --save-dev
 ```
 
 
